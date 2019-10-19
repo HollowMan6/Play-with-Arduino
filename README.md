@@ -23,11 +23,9 @@
 
 请注意，一定要使用带波浪线的输出接口，否则无法营造出呼吸灯的效果。
 
-这是效果视频：
+[这是效果视频](LED-breathing-lamp.mp4)
 
-<video id="video" controls="" preload="none">
-      <source id="mp4" src="https://github.com/HollowMan6/Play-with-Arduino/blob/master/LED-breathing-lamp.mp4?raw=true" type="video/mp4">
-      </video>
+---
 
 这个视频中你可以看出，虽然我们人肉眼看不见红外线，但是相机却能拍出红外线，是不是很神奇呢！😀
 
@@ -39,11 +37,7 @@
 
 [这是我的源代码](Controlling-motor-angle-with-potentiometer.ino)
 
-这是效果视频：
-
-<video id="video" controls="" preload="none">
-      <source id="mp4" src="[ ](https://github.com/HollowMan6/Play-with-Arduino/blob/master/Controlling-motor-angle-with-potentiometer.mp4?raw=true)" type="video/mp4">
-      </video>
+[这是效果视频](Controlling-motor-angle-with-potentiometer.mp4)
 
 # My experience of using Arduino to do some interesting things
 
@@ -57,11 +51,9 @@ Among them, green light is LED1, connected to port 9; red light is LED2, connect
 
 Please note that you must only use port with wavy line, otherwise the effect of breathing LED cannot be created.
 
-Here is my showing video:
+[Here is my showing video](LED-breathing-lamp.mp4)
 
-<video id="video" controls="" preload="none">
-      <source id="mp4" src="https://github.com/HollowMan6/Play-with-Arduino/blob/master/LED-breathing-lamp.mp4?raw=true" type="video/mp4">
-      </video>
+---
 
 In this video, you can see that although we can't see infrared radiation, but the camera can shoot infrared radiation, isn't it amazing? 😀
 
@@ -73,8 +65,4 @@ Prepare a servo motor and a potentiometer, and connect the circuit as shown in t
 
 [Here is my Source Code](Controlling-motor-angle-with-potentiometer.ino)
 
-Here is my showing video:
-
-<video id="video" controls="" preload="none">
-      <source id="mp4" src="[ ](https://github.com/HollowMan6/Play-with-Arduino/blob/master/Controlling-motor-angle-with-potentiometer.mp4?raw=true)" type="video/mp4">
-      </video>
+[Here is my showing video](LED-breathing-lamp.mp4)
