@@ -23,7 +23,7 @@ Arduino UNO:
 
 电位器(Potentiometer)
 
-![](Potentiometer.jpg)
+![](potentiometer.jpg)
 
 面包板(Breadboard)
 
