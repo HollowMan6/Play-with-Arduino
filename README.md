@@ -11,6 +11,36 @@
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)
 [![Repo-Size](https://img.shields.io/github/repo-size/HollowMan6/Play-with-Arduino.svg)](../../archive/master.zip)
 
+## 材料(Material)
+
+Arduino UNO:
+
+![](Arduino-UNO.jpg)
+
+公对公杜邦线(Public to public DuPont lines):
+
+![](Public-to-public-DuPont-lines.jpg)
+
+电位器(Potentiometer)
+
+![](Potentiometer.jpg)
+
+面包板(Breadboard)
+
+![](Breadboard.jpg)
+
+数码管(Nixie tube) 5611BH
+
+![](5611BH.jpg)
+
+四位数码管(Four digit nixie tube) 3461AS-1
+
+![](3461AS-1.jpg)
+
+以及伺服电机,电阻和LED。
+
+and servo motor, resistance, LED.
+
 (English Version is down below)
 
 ## 制作呼吸灯
@@ -39,11 +69,43 @@
 
 [这是效果视频](Controlling-motor-angle-with-potentiometer.mp4)
 
+## 用电位器控制电机角度
+
+准备一个伺服电机和一个电位器，按如图所示接法连入电路：
+
+![](Controlling-motor-angle-with-potentiometer.JPG)
+
+[这是我的源代码](Controlling-motor-angle-with-potentiometer.ino)
+
+[这是效果视频](Controlling-motor-angle-with-potentiometer.mp4)
+
+## 用电位器调节数码管显示数字
+
+准备一个数码管和一个电位器，按如图所示接法连入电路：
+
+***注意: 因为我这里的数码管是共阳极的，与传统共阴极数码管有区别***
+
+![](Adjust-the-digital-display-with-potentiometer.jpg)
+
+[这是我的源代码](Adjust-the-digital-display-with-potentiometer.ino)
+
+[这是效果视频](Adjust-the-digital-display-with-potentiometer.mp4)
+
+## 用四位数码管模拟时间
+
+参考[这里](https://www.jianshu.com/p/98f6445d3351)的教程，我完成了电路的组装。
+
+[这是我的源代码](Simulate-time-with-four-digit-nixie-tube.ino)
+
+这是效果图:
+
+![](Simulate-time-with-four-digit-nixie-tube.jpg)
+
 # My experience of using Arduino to do some interesting things
 
 ## Make breathing LED
 
-Refer to the tutorial [here] (https://www.arduino.cn/thread-75674-1-1.html), I increased the number of LED lights to create different effects.
+Refer to the tutorial [here](https://www.arduino.cn/thread-75674-1-1.html), I increased the number of LED lights to create different effects.
 
 [Here is my Source Code](LED-breathing-lamp.ino)
 
@@ -66,3 +128,25 @@ Prepare a servo motor and a potentiometer, and connect the circuit as shown in t
 [Here is my Source Code](Controlling-motor-angle-with-potentiometer.ino)
 
 [Here is my showing video](LED-breathing-lamp.mp4)
+
+## Adjust the digital display with potentiometer
+
+Prepare a nixie tube and a potentiometer, and connect the circuit as shown in the figure:
+
+***Note: the nixie tube here is common anode, which is different from the traditional common cathode nixie tube.***
+
+![](Adjust-the-digital-display-with-potentiometer.jpg)
+
+[Here is my Source Code](Adjust-the-digital-display-with-potentiometer.ino)
+
+[Here is my showing video](Adjust-the-digital-display-with-potentiometer.mp4)
+
+## Simulate time with four digit nixie tube
+
+Refer to the tutorial [here](https://www.jianshu.com/p/98f6445d3351), I complete the connection of the circuit.
+
+[Here is my Source Code](Simulate-time-with-four-digit-nixie-tube.ino)
+
+Here is my showing picture:
+
+![](Simulate-time-with-four-digit-nixie-tube.jpg)
