@@ -15,27 +15,27 @@
 
 Arduino UNO:
 
-![](Arduino-UNO.jpg)
+![](pics/Arduino-UNO.jpg)
 
 公对公杜邦线(Public to public DuPont lines):
 
-![](Public-to-public-DuPont-lines.jpg)
+![](pics/Public-to-public-DuPont-lines.jpg)
 
 电位器(Potentiometer)
 
-![](potentiometer.jpg)
+![](pics/potentiometer.jpg)
 
 面包板(Breadboard)
 
-![](Breadboard.jpg)
+![](pics/Breadboard.jpg)
 
 数码管(Nixie tube) 5611BH
 
-![](5611BH.jpg)
+![](pics/5611BH.jpg)
 
 四位数码管(Four digit nixie tube) 3461AS-1
 
-![](3461AS-1.jpg)
+![](pics/3461AS-1.jpg)
 
 以及伺服电机,电阻和LED。
 
@@ -53,7 +53,9 @@ and servo motor, resistance, LED.
 
 请注意，一定要使用带波浪线的输出接口，否则无法营造出呼吸灯的效果。
 
-[这是效果视频](LED-breathing-lamp.mp4)
+[这是效果视频](pics/LED-breathing-lamp.mp4)
+
+<video src="pics/LED-breathing-lamp.mp4" controls="controls">当前不支持播放视频，请点击上面链接后查看</video>
 
 ---
 
@@ -63,21 +65,13 @@ and servo motor, resistance, LED.
 
 准备一个伺服电机和一个电位器，按如图所示接法连入电路：
 
-![](Controlling-motor-angle-with-potentiometer.JPG)
+![](pics/Controlling-motor-angle-with-potentiometer.JPG)
 
 [这是我的源代码](Controlling-motor-angle-with-potentiometer.ino)
 
-[这是效果视频](Controlling-motor-angle-with-potentiometer.mp4)
+[这是效果视频](pics/Controlling-motor-angle-with-potentiometer.mp4)
 
-## 用电位器控制电机角度
-
-准备一个伺服电机和一个电位器，按如图所示接法连入电路：
-
-![](Controlling-motor-angle-with-potentiometer.JPG)
-
-[这是我的源代码](Controlling-motor-angle-with-potentiometer.ino)
-
-[这是效果视频](Controlling-motor-angle-with-potentiometer.mp4)
+<video src="pics/Controlling-motor-angle-with-potentiometer.mp4" controls="controls">当前不支持播放视频，请点击上面链接后查看</video>
 
 ## 用电位器调节数码管显示数字
 
@@ -85,21 +79,23 @@ and servo motor, resistance, LED.
 
 ***注意: 因为我这里的数码管是共阳极的，与传统共阴极数码管有区别***
 
-![](Adjust-the-digital-display-with-potentiometer.jpg)
+![](pics/Adjust-the-digital-display-with-potentiometer.jpg)
 
 [这是我的源代码](Adjust-the-digital-display-with-potentiometer.ino)
 
-[这是效果视频](Adjust-the-digital-display-with-potentiometer.mp4)
+[这是效果视频](pics/Adjust-the-digital-display-with-potentiometer.mp4)
+
+<video src="pics/Adjust-the-digital-display-with-potentiometer.mp4" controls="controls">当前不支持播放视频，请点击上面链接后查看</video>
 
 ## 用四位数码管模拟时间
 
-参考[这里](https://www.jianshu.com/p/98f6445d3351)的教程，我完成了电路的组装。
+参考[这里](pics/https://www.jianshu.com/p/98f6445d3351)的教程，我完成了电路的组装。
 
 [这是我的源代码](Simulate-time-with-four-digit-nixie-tube.ino)
 
 这是效果图:
 
-![](Simulate-time-with-four-digit-nixie-tube.jpg)
+![](pics/Simulate-time-with-four-digit-nixie-tube.jpg)
 
 # My experience of using Arduino to do some interesting things
 
@@ -113,7 +109,9 @@ Among them, green light is LED1, connected to port 9; red light is LED2, connect
 
 Please note that you must only use port with wavy line, otherwise the effect of breathing LED cannot be created.
 
-[Here is my showing video](LED-breathing-lamp.mp4)
+[Here is my showing video](pics/LED-breathing-lamp.mp4)
+
+<video src="pics/LED-breathing-lamp.mp4" controls="controls">Can't play video at this time, please click the link above  to watch it.</video>
 
 ---
 
@@ -123,11 +121,13 @@ In this video, you can see that although we can't see infrared radiation, but th
 
 Prepare a servo motor and a potentiometer, and connect the circuit as shown in the figure:
 
-![](Controlling-motor-angle-with-potentiometer.JPG)
+![](pics/Controlling-motor-angle-with-potentiometer.JPG)
 
 [Here is my Source Code](Controlling-motor-angle-with-potentiometer.ino)
 
-[Here is my showing video](LED-breathing-lamp.mp4)
+[Here is my showing video](pics/Controlling-motor-angle-with-potentiometer.mp4)
+
+<video src="pics/Controlling-motor-angle-with-potentiometer.mp4" controls="controls">Can't play video at this time, please click the link above  to watch it.</video>
 
 ## Adjust the digital display with potentiometer
 
@@ -135,11 +135,13 @@ Prepare a nixie tube and a potentiometer, and connect the circuit as shown in th
 
 ***Note: the nixie tube here is common anode, which is different from the traditional common cathode nixie tube.***
 
-![](Adjust-the-digital-display-with-potentiometer.jpg)
+![](pics/Adjust-the-digital-display-with-potentiometer.jpg)
 
 [Here is my Source Code](Adjust-the-digital-display-with-potentiometer.ino)
 
-[Here is my showing video](Adjust-the-digital-display-with-potentiometer.mp4)
+[Here is my showing video](pics/Adjust-the-digital-display-with-potentiometer.mp4)
+
+<video src="pics/Adjust-the-digital-display-with-potentiometer.mp4" controls="controls">Can't play video at this time, please click the link above  to watch it.</video>
 
 ## Simulate time with four digit nixie tube
 
@@ -149,4 +151,4 @@ Refer to the tutorial [here](https://www.jianshu.com/p/98f6445d3351), I complete
 
 Here is my showing picture:
 
-![](Simulate-time-with-four-digit-nixie-tube.jpg)
+![](pics/Simulate-time-with-four-digit-nixie-tube.jpg)
